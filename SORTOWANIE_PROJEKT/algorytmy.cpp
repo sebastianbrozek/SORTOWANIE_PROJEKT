@@ -32,7 +32,7 @@ void insert_sort(int *tab, int n)
 				zamiana = 1;
 			};
 	}
-}//---------------------------------------------------//void swap1(int *xp, int *yp)
+}void swap1(int *xp, int *yp)
 {
 	int temp = *xp;
 	*xp = *yp;
